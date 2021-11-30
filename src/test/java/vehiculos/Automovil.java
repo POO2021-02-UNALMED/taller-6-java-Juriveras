@@ -2,8 +2,8 @@ package vehiculos;
 
 public class Automovil extends Vehiculo {
 	
-	private int puestos;
 	private static int cantidadAutomoviles;
+	private int puestos;
 	
 	public Automovil(String placa, String nombre, int precio, int peso, Fabricante fabricante,
 			int puestos) {
@@ -31,4 +31,5 @@ public class Automovil extends Vehiculo {
 	public static void setCantidadAutomoviles(int cantidadAutomoviles) {
 		Automovil.cantidadAutomoviles = cantidadAutomoviles;
 	}
+	
 }
